@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import Header from "./components/header/header";
+import Kredit from "./components/main/section/kredit/kredit";
+import Button from "./components/main/section/button/button";
+import Zayem from "./components/main/section/zayem/zayem";
+import Contact from "./components/contact";
+import Bank from "./components/bank/bank";
+import Coin from "./components/cion/coin";
+import Footer from "./components/footer/footer";
+import { Route, Router, Routes } from "react-router-dom";
+import Layout from "./Layout";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;

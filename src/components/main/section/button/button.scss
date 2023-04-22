@@ -1,0 +1,38 @@
+.button {
+  padding-bottom: 179px;
+  &__item {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+  }
+  &__list {
+    width: 280px;
+    height: 90px;
+
+    background: rgba(30, 62, 90, 0.1);
+    border: 1px solid;
+    border-radius: 4px;
+  }
+  &__list__1 {
+    width: 280px;
+    height: 90px;
+    background: #ffffff;
+    opacity: 0.2;
+    border: 1px solid #0e0e0f;
+    border-radius: 4px;
+  }
+  &__title {
+    padding: 22px 22px 0 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1e3e5a;
+  }
+  &__text {
+    padding: 25px 25px 0 25px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #1e3e5a;
+  }
+}

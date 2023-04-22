@@ -1,0 +1,158 @@
+.bank {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-items: center;
+  &__title {
+    width: 597px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1e3e5a;
+  }
+  &__iz {
+    display: flex;
+    gap: 12px;
+  }
+  &__text__B {
+    padding-left: 49px;
+    width: 228px;
+    height: 42px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1e3e5a;
+  }
+  &__texts__C {
+    width: 61px;
+    height: 19px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1e3e5a;
+  }
+  &__photo__alfa {
+    padding: 42px;
+    width: 199px;
+    height: 33px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #1e3e5a;
+  }
+  &__box__2 {
+    width: 564px;
+    height: 380px;
+    border-radius: 12px;
+    background: whitesmoke;
+
+  }
+  &__photo {
+    margin: 0 0 0 40px;
+    display: flex;
+  }
+  &__photo_text {
+    padding: 42px 0;
+    width: 62px;
+    height: 33px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #1e3e5a;
+  }
+  &__text__H {
+    width: 176px;
+    height: 42px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1e3e5a;
+  }
+  &__texts {
+    padding-left: 50px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1e3e5a;
+  }
+  &__text__text {
+    padding-left: 50px;
+    width: 75px;
+    height: 21px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1e3e5a;
+  }
+  &__konsol {
+    gap: 25px;
+    display: flex;
+  }
+  &__text__1 {
+    padding-left: 50px;
+    width: 216px;
+    height: 42px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1e3e5a;
+  }
+  &__text__2 {
+    width: 152px;
+    height: 21px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1e3e5a;
+  }
+  &__konsultatsiya {
+    padding: 34px 0 0 0;
+  }
+  &__texts__3 {
+    padding-left: 5px;
+    width: 61px;
+    height: 19px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1e3e5a;
+  }
+  &__text__5 {
+    padding-left: 50px;
+    width: 52px;
+    height: 21px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1e3e5a;
+  }
+}
